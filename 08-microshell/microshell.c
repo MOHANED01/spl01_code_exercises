@@ -27,7 +27,7 @@ void set_variable(const char *name,const char *value)
 {
         /*to add a local variable to array*/
 
-        for(int i =0;i<var_count;i++)
+        for(int i =0;i<=var_count;i++)
         {
 		/*search in dynamic array*/
                 if(strcmp(vars[i].name,name)==0)
